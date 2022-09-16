@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 50%;
+  margin: 2rem auto;
+}
+#span-el1,
+#span-el2 {
+  width: 100px;
+  border-bottom: 1px solid black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#span-el1 {
+  margin-right: 1rem;
+}
+.btn-container {
+  margin-top: 2rem;
+}
+button {
+  padding: 1rem;
+  background-color: blue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  color: white;
+}

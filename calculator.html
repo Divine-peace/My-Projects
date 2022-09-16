@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span id="span-el1"></span>
+      <span id="span-el2"></span>
+      <br />
+      <div class="btn-container">
+        <button id="btn-add" onclick="add()">Add</button>
+        <button id="btn-subtract" onclick="subtract()">Subtract</button>
+        <button id="btn-divide" onclick="divide()">Divide</button>
+        <br />
+        <button id="btn-multiply" onclick="multiply()">Multiply</button>
+        <button id="btn-reset" onclick="reset()">Reset</button>
+
+        <p id="total-el"></p>
+      </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
