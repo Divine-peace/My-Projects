@@ -1,6 +1,9 @@
+let player = {
+  name: "Peace",
+  chips: 100,
+};
 let sum = 0;
 let cards = [];
-
 let hasBlackJack = false;
 let isActive = false;
 let message = "";
@@ -9,7 +12,9 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 let greetingEl = document.getElementById("greeting-el");
+const playerEl = document.getElementById("player-el");
 
+playerEl.textContent = `${player.name}: $${player.chips}`;
 function startGame() {
   isActive = true;
   let firstCard = getRandomCard();
