@@ -38,10 +38,12 @@ function renderGame() {
   messageEl.textContent = message;
 }
 function newCard() {
-  let card = getRandomCard();
-  sum += card;
-  cards.push(card);
-  renderGame();
+  if (isActive === true && hasBlackJack === false) {
+    let card = getRandomCard();
+    sum += card;
+    cards.push(card);
+    renderGame();
+  }
 }
 
 function getRandomCard() {
