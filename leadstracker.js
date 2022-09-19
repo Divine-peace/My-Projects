@@ -22,3 +22,7 @@ function renderLeads() {
   }
   ulEl.innerHTML = listItems;
 }
+
+let arr = ["clothes", "shoes", "sneakers"];
+const storedItem = JSON.parse(localStorage.getItem("myArr"));
+console.log(storedItem);
